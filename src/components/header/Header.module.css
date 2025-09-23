@@ -19,18 +19,19 @@
 }
 li a{
 
+    font-size:large;
     padding-bottom: 10px;
     padding-top: 15px;
     border-radius: 15px;
     padding-left: 20px;
     padding-right: 20px;
     background-color: #8c52ff;
-    font-weight: bolder;
 
 }
 
 .pink a:hover{
 
+    font-size:large;
     transition: 0.1s;
     background-color: #ff60bd;
     color: aliceblue
@@ -39,6 +40,7 @@ li a{
 
 .purple a:hover{
 
+    font-size:large;
     transition: 0.1s;
     background-color: #7c0a9e;
     color: aliceblue
@@ -46,6 +48,7 @@ li a{
 
 .blue a:hover{
 
+    font-size:large;
     transition: 0.1s;
     background-color: #1907c2;
     color: aliceblue
@@ -59,7 +62,7 @@ li a{
 }
 
 .active{
-    
+    font-size:large;
     padding-bottom: 20px;
     background-color: #8c52ff;
     
@@ -67,12 +70,14 @@ li a{
 
 .inactive{
 
+    font-size:large;
     transition: ease 0.3s;
     background-color: #5638a4;
 
 }
 .inactive:hover{
 
+    font-size:large;
     transition: ease 0.3;
     padding-bottom: 15px;
     background-color: #5638a4;
@@ -81,12 +86,14 @@ li a{
 
 a.active{
 
+    font-size:large;
    text-align: center;
 
 }
 
 a .inactive{
 
+    font-size:large;
     text-align: center;
     
 }
