@@ -1,33 +1,30 @@
 *{
-    padding: 0%;
-    margin: 0%;
-    
+  padding: 0%;
+  margin: 0%;
 }
 
 .notfoundBody{
-
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #2b2439;
-    text-align: center;
-    background-attachment: fixed;
-
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background-attachment: fixed;
 }
 
 .text{
 
-  font-size: 450%;  
-  color: #f6f0ff;  
-
+  font-size: 450%;
+  color: #f6f0ff;
 }
 
 .bg404{
 
-    border-radius: 30px;
-    background-color: #1b1525;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    
+  background-color: #1b1525;
+  padding: 30px;
+  border-radius: 30px;
+  border: #7c0a9e solid 3px;
+  border-top: #ff60bd solid 3px;
+  border-bottom: #1907c2 solid 3px;
 }
