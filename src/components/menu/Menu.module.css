@@ -1,0 +1,87 @@
+.Menu{
+
+    padding-left: 70px;
+
+}
+.screen{
+
+    border-bottom: #432c64 solid 10px;
+    border-right: #432c64 solid 10px;
+    margin-right: 1cm;
+    margin-left: 1cm;
+    margin-bottom: 1cm;
+    border-radius: 30px;
+    height: 860px;
+    background-color: #100f24;
+
+}
+
+.button{
+
+    margin-top: 1cm;
+    padding-bottom: 10px;
+    padding: 9px 10px;
+    border-style: none;
+    border-radius: 15px 15px 0px 0px;
+
+    background-color: #100f10;
+    color: aliceblue;    
+}
+
+.button1{
+
+    margin-top: 1cm;
+    padding-bottom: 10px;
+    padding: 9px 10px;
+    border-style: none;
+    border-radius: 15px 15px 0px 0px;
+
+    background-color: #100f10;
+    color: aliceblue;
+}
+.button2{
+
+    margin-top: 1cm;
+    padding-bottom: 10px;
+    padding: 9px 10px;
+    border-style: none;
+    border-radius: 15px 15px 0px 0px;
+
+    background-color: #100f10;
+    color: aliceblue;
+}
+
+.button3{
+
+    margin-top: 1cm;
+    padding-bottom: 10px;
+    padding: 9px 10px;
+    border-style: none;
+    border-radius: 15px 15px 0px 0px;
+
+    background-color: #100f10;
+   
+}
+
+.active{
+
+    background-color: #000000;
+    color: aliceblue;
+
+}
+
+.inactive{
+
+    margin-top: 1cm;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #aeb1b3;
+    border-style: none;
+    border-radius: 15px 15px 0px 0px;
+
+    
+    background-color: #100f10;
+}
+
