@@ -4,14 +4,12 @@
     padding-bottom: 2cm;
 
 }
-
 .menu{
     
     padding-left: 70px;
     list-style-type: none;
     
 }
-
 .menu li{
 
     text-decoration: none;
@@ -19,7 +17,6 @@
     float: left;
 
 }
-
 li a{
 
     padding-bottom: 10px;
