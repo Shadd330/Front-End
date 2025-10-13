@@ -4,7 +4,8 @@ export function Smallermenu({ active })
 
     return(
         
-        <>
+        <div className={style.main}>
+
         <div className={style.Menu}>
             <button className={style.button}><a className={` ${ style.A} ${ (active == "tasks" ? style.active : style.inactive)}`}>Call</a></button>
             <button className={style.button1}><a className={active == "log" ? style.active : style.inactive}>Log</a></button>
@@ -13,6 +14,7 @@ export function Smallermenu({ active })
             <button className={style.button4}><a className={active == "autocalls" ? style.active : style.inactive}>Auto-Calls</a></button>
         </div>
         <div className={style.screen}></div>
-        </>
+        
+        </div>
     );
 }

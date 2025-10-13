@@ -1,6 +1,10 @@
+.main{
+    position: relative;
+}
+
 .Menu{
 
-    padding-left: 500px;
+    padding-left: 600px;
 
 }
 .screen{
@@ -22,12 +26,10 @@
 .button{
 
     font-size:large;
-    margin-top: 1cm;
     padding-bottom: 10px;
     padding: 9px 10px;
     border-style: none;
-    border-radius: 15px 15px 0px 0px;
-
+    border-radius: 15px 15px 0px 0px;  
     background-color: #100f10;
     color: aliceblue;    
 }
@@ -35,24 +37,20 @@
 .button1{
 
     font-size:large;
-    margin-top: 1cm;
     padding-bottom: 10px;
     padding: 9px 10px;
     border-style: none;
     border-radius: 15px 15px 0px 0px;
-
     background-color: #100f10;
     color: aliceblue;
 }
 .button2{
 
     font-size:large;
-    margin-top: 1cm;
     padding-bottom: 10px;
     padding: 9px 10px;
     border-style: none;
     border-radius: 15px 15px 0px 0px;
-
     background-color: #100f10;
     color: aliceblue;
 }
@@ -60,7 +58,6 @@
 .button3{
 
     font-size:large;
-    margin-top: 1cm;
     padding-bottom: 10px;
     padding: 9px 10px;
     border-style: none;
@@ -73,7 +70,6 @@
 .button4{
 
     font-size:large;
-    margin-top: 1cm;
     padding-bottom: 10px;
     padding: 9px 10px;
     border-style: none;

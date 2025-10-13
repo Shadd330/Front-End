@@ -8,8 +8,8 @@ export function Tasks(){
 
     <Header active = 'tasks'/>
     <div >
-    <Smallermenu/>
     <Function/>
+    <Smallermenu/>
     </div>
     
     </>
