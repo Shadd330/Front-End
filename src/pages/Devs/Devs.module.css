@@ -1,21 +1,22 @@
-.bg{
+.bg {
   background: #000000;
-  background: radial-gradient(circle,rgba(0, 0, 0, 1) 0%, rgba(20, 0, 0, 1) 10%, rgba(0, 0, 0, 1) 20%, rgba(20, 8, 0, 1) 30%, rgba(0, 0, 0, 1) 40%, rgba(20, 16, 0, 1) 50%, rgba(0, 0, 0, 1) 60%, rgba(0, 20, 15, 1) 70%, rgba(0, 0, 0, 1) 80%, rgba(8, 0, 20, 1) 90%, rgba(0, 0, 0, 1) 100%);
+  background: radial-gradient(circle, rgba(0, 0, 0, 1) 0%, rgba(20, 0, 0, 1) 10%, rgba(0, 0, 0, 1) 20%, rgba(20, 8, 0, 1) 30%, rgba(0, 0, 0, 1) 40%, rgba(20, 16, 0, 1) 50%, rgba(0, 0, 0, 1) 60%, rgba(0, 20, 15, 1) 70%, rgba(0, 0, 0, 1) 80%, rgba(8, 0, 20, 1) 90%, rgba(0, 0, 0, 1) 100%);
   width: 100vw;
   height: 100vh;
 }
 
-.pageContainer{
+.pageContainer {
   position: absolute;
-  top: 50%; right: 50%;
-  transform: translate(50%,-50%);
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
   width: 80%;
   height: 80%;
   display: flex;
   justify-content: space-between;
 }
 
-.profileBox{
+.profileBox {
   background-color: rgba(25, 25, 25, 0.9);
   border-radius: 20px;
   width: 35%;
@@ -38,7 +39,7 @@
   transition: background 0.2s;
 }
 
-.profileContent:hover{
+.profileContent:hover {
   background: rgba(0, 0, 0, 0.9);
 }
 
@@ -52,7 +53,7 @@
   pointer-events: none;
 }
 
-.shadd330::before{
+.shadd330::before {
   background:
     linear-gradient(to bottom,
       rgba(255, 27, 141, 0.5) 0%,
@@ -60,11 +61,10 @@
       rgba(241, 196, 32, 0.5) 33%,
       rgba(241, 196, 32, 0.5) 66%,
       rgba(105, 209, 204, 0.5) 66%,
-      rgba(105, 209, 204, 0.5) 100%
-    );
+      rgba(105, 209, 204, 0.5) 100%);
 }
 
-.anypogers::before{
+.anypogers::before {
   background:
     linear-gradient(to bottom,
       rgba(176, 11, 105, 0.5) 0%,
@@ -72,11 +72,10 @@
       rgba(66, 10, 85, 0.5) 33%,
       rgba(66, 10, 85, 0.5) 66%,
       rgba(4, 32, 105, 0.5) 66%,
-      rgba(4, 32, 105, 0.5) 100%
-    );
+      rgba(4, 32, 105, 0.5) 100%);
 }
 
-.logoBox{
+.logoBox {
   width: 10%;
   height: 100%;
   display: flex;
@@ -85,27 +84,28 @@
 }
 
 @keyframes float {
-	0% {
-		transform: translatey(0px);
-	}
-	100% {
-		transform: translatey(-20px);
-	}
+  0% {
+    transform: translatey(0px);
+  }
+
+  100% {
+    transform: translatey(-20px);
+  }
 }
 
 
-.logo{
+.logo {
   align-items: center;
   justify-content: center;
   display: flex;
   animation: float 2s ease-in-out alternate infinite;
 }
 
-.logo img{
+.logo img {
   width: 95%;
   transition: width 0.3s;
 }
 
-.logo img:hover{
+.logo img:hover {
   width: 100%;
 }

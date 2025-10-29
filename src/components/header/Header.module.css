@@ -1,99 +1,90 @@
-.header{
+.header {
 
-    background-color: #15121c;
-    padding-bottom: 2cm;
-
-}
-.menu{
-    
-    padding-left: 70px;
-    list-style-type: none;
-    
-}
-.menu li{
-
-    text-decoration: none;
-    text-align: center;
-    float: left;
-
-}
-li a{
-
-    font-size:large;
-    padding-bottom: 10px;
-    padding-top: 15px;
-    border-radius: 15px;
-    padding-left: 20px;
-    padding-right: 20px;
-    background-color: #8c52ff;
+  background-color: #15121c;
+  padding-bottom: 2cm;
 
 }
 
-.pink a:hover{
+.menu {
 
-    font-size:large;
-    transition: 0.1s;
-    background-color: #ff60bd;
-    color: aliceblue
+  padding-left: 70px;
+  list-style-type: none;
 
 }
 
-.purple a:hover{
+.menu li {
 
-    font-size:large;
-    transition: 0.1s;
-    background-color: #7c0a9e;
-    color: aliceblue
-}
-
-.blue a:hover{
-
-    font-size:large;
-    transition: 0.1s;
-    background-color: #1907c2;
-    color: aliceblue
-}
-
-.logo{
-
-    display: block;
-    margin: auto;
-    width: 15%;
-}
-
-.active{
-    font-size:large;
-    padding-bottom: 20px;
-    background-color: #8c52ff;
-    
-}
-
-.inactive{
-
-    font-size:large;
-    transition: ease 0.3s;
-    background-color: #5638a4;
-
-}
-.inactive:hover{
-
-    font-size:large;
-    transition: ease 0.3;
-    padding-bottom: 15px;
-    background-color: #5638a4;
+  text-decoration: none;
+  text-align: center;
+  float: left;
 
 }
 
-a.active{
+li a {
 
-    font-size:large;
-   text-align: center;
+  font-size: large;
+  padding-bottom: 10px;
+  padding-top: 15px;
+  border-radius: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #8c52ff;
+  transition: 0.1s;
+}
+
+.pink a:hover {
+
+
+  background-color: #ff60bd;
+  color: aliceblue
+}
+
+.purple a:hover {
+
+  background-color: #7c0a9e;
+  color: aliceblue
+}
+
+.blue a:hover {
+
+  background-color: #1907c2;
+  color: aliceblue
+}
+
+.logo {
+  position: absolute;
+  justify-self: center;
+  margin-top: 10px;
+  width: 55px;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.active {
+
+  font-size: large;
+  padding-bottom: 20px;
+  background-color: #8c52ff;
 
 }
 
-a .inactive{
+.inactive {
 
-    font-size:large;
-    text-align: center;
-    
+  font-size: large;
+  transition: ease 0.3s;
+  background-color: #5638a4;
+
+}
+
+.inactive:hover {
+  padding-bottom: 15px;
+}
+
+a {
+  font-size: large;
+  text-align: center;
+  text-decoration: none;
+  color: black
 }
