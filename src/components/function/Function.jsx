@@ -16,7 +16,7 @@ export function Function() {
   return (
     <>
 
-      <p className={style.title}>Functions</p>
+
        <div className={style.scrollbar}>
             
         </div> 

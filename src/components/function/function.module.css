@@ -1,23 +1,9 @@
-.title {
-
-  margin-top: 55px;
-  color: aliceblue;
-  text-align: center;
-  font-size: 30px;
-  background-color: #15111d;
-  border-radius: 25px 25px 0px 0px;
-  width: 190px;
-  padding: 30px;
-  margin-left: 85px;
-  /*39.5px = 1cm*/
-
-}
-
 .fbg {
 
+  margin-top: 5cm;
   float: left;
   margin-right: 1cm;
-  margin-left: 1cm;
+  margin-left: 2cm;
   margin-bottom: 39.5px;
   border-radius: 15px;
   width: 350px;
@@ -27,8 +13,19 @@
   direction: rtl;
 }
 
+.title{
+
+  border-radius: 20px;
+  background-color: #15111d;
+  padding: 35px; 
+  width: 7%;
+  text-align: center;
+  font-size: 30px;
+
+}
 
 .menu {
+
   width: 50%;
   padding-left: 50px;
   margin-left: auto;

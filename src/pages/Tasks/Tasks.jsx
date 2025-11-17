@@ -7,7 +7,7 @@ export function Tasks(){
     <>
 
     <Header active = 'tasks'/>
-    <div >
+    <div>
     <Function/>
     <Smallermenu/>
     </div>
