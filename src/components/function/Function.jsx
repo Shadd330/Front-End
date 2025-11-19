@@ -29,7 +29,7 @@ export function Function() {
                 return (
 
                   <li className={style.li}>
-                    <button className={style.button}>
+                    <button onClick={() => {console.log("Clicou!")}}className={style.button}>
                       {
                         value.name
                       }
@@ -42,7 +42,6 @@ export function Function() {
           </ul>
         </div>
       </div>
-
     </>
   )
 
