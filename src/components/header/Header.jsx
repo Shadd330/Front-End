@@ -34,7 +34,7 @@ export function Header({ active }) {
             (() => {
               if (active == "404") {
                 return (
-                  <li className={style.blue}>
+                  <li className={style.red}>
                     <a
                       className={style.active}
                     >

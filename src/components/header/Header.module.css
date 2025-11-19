@@ -1,4 +1,4 @@
-.header {
+  .header {
 
   background-color: #15121c;
   padding-bottom: 2cm;
@@ -47,6 +47,12 @@ li a {
 .blue a:hover {
 
   background-color: #1907c2;
+  color: aliceblue
+}
+
+.red a:hover {
+
+  background-color: #8b0000;
   color: aliceblue
 }
 
