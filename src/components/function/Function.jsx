@@ -10,7 +10,19 @@ export function Function() {
     {
       'name' : 'Open Google',
       'intention' : 'openGoogle'
-    }
+    },
+    {
+      'name' : 'Call',
+      'intention' : 'openGoogle'
+    },
+    {
+      'name' : 'Logs',
+      'intention' : 'openGoogle'
+    },
+    {
+      'name' : 'Steps',
+      'intention' : 'openGoogle'
+    },
   ]
 
   return (

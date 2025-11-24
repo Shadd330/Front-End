@@ -3,7 +3,7 @@
 Body {
   overflow: hidden;
   font-family: "Roboto Mono";
-  background-image: url("../public/tccbg.png");
+  background-image: url("/tccbg.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #2b2439;
