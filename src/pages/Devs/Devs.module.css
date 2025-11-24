@@ -1,55 +1,36 @@
 .bg {
   background: #000000;
-  background: radial-gradient(circle, rgba(0, 0, 0, 1) 0%, rgba(20, 0, 0, 1) 10%, rgba(0, 0, 0, 1) 20%, rgba(20, 8, 0, 1) 30%, rgba(0, 0, 0, 1) 40%, rgba(20, 16, 0, 1) 50%, rgba(0, 0, 0, 1) 60%, rgba(0, 20, 15, 1) 70%, rgba(0, 0, 0, 1) 80%, rgba(8, 0, 20, 1) 90%, rgba(0, 0, 0, 1) 100%);
   width: 100vw;
   height: 100vh;
 }
 
 .pageContainer {
   position: absolute;
+  justify-content: space-between;
+  align-items: center;
   top: 50%;
   right: 50%;
   transform: translate(50%, -50%);
   width: 80%;
   height: 80%;
   display: flex;
-  justify-content: space-between;
 }
 
 .profileBox {
-  background-color: rgba(25, 25, 25, 0.9);
   border-radius: 20px;
-  width: 35%;
-  height: 100%;
-}
-
-.profileBox {
+  width: 32%;
+  height: 80%;
   position: relative;
   display: inline-block;
-}
-
-.profileContent {
-  position: relative;
-  z-index: 1;
-  width: 100%;
-  height: 100%;
-  color: white;
-  background: rgba(0, 0, 0, 0.8);
-  border-radius: 16px;
-  transition: background 0.2s;
-}
-
-.profileContent:hover {
-  background: rgba(0, 0, 0, 0.9);
 }
 
 .profileBox::before {
   content: "";
   position: absolute;
-  inset: -30px;
+  inset: -5px;
   z-index: 0;
   border-radius: 12px;
-  filter: blur(30px);
+  filter: blur(25px);
   pointer-events: none;
 }
 
@@ -75,6 +56,62 @@
       rgba(4, 32, 105, 0.5) 100%);
 }
 
+.profileContent {
+  position: relative;
+  align-content: center;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  color: gray;
+  background: rgba(0, 0, 0, 0.90);
+  border-radius: 16px;
+  transition: background, color 0.2s;
+}
+
+.profileContent:hover {
+  background: rgba(0, 0, 0, 0.95);
+  color: white;
+}
+
+.profileContent>div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.profileHeader{
+  height: 20%;
+}
+
+.profileImage{
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.profileImage img{
+  width: 80%;
+  border-radius: 100%;
+  transition: width 0.2s;
+}
+
+.profileImage img:hover{
+  width: 85%;
+}
+
+.profileBody{
+  height: 30%;
+  margin-bottom: 10%;
+  margin-top: 10%;
+}
+
+.profileFooter{
+  height: 20%;
+}
+
 .logoBox {
   width: 10%;
   height: 100%;
@@ -85,11 +122,11 @@
 
 @keyframes float {
   0% {
-    transform: translatey(0px);
+    transform: translatey(15px);
   }
 
   100% {
-    transform: translatey(-20px);
+    transform: translatey(-15px);
   }
 }
 
@@ -98,7 +135,7 @@
   align-items: center;
   justify-content: center;
   display: flex;
-  animation: float 2s ease-in-out alternate infinite;
+  animation: float 3s ease-in-out alternate infinite;
 }
 
 .logo img {
