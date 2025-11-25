@@ -1,4 +1,4 @@
-  .header {
+.header {
 
   background-color: #15121c;
   padding-bottom: 2cm;
@@ -52,11 +52,11 @@ li a {
 
 .red a:hover {
 
-  background-color: #8b0000;
   color: aliceblue
 }
 
 .logo {
+
   position: absolute;
   justify-self: center;
   margin-top: 10px;
@@ -78,7 +78,7 @@ li a {
 .inactive {
 
   font-size: large;
-  transition: ease 0.3s;
+  transition: 0.3s;
   background-color: #5638a4;
 
 }
@@ -87,7 +87,7 @@ li a {
   padding-bottom: 15px;
 }
 
-a {
+a{
   font-size: large;
   text-align: center;
   text-decoration: none;
