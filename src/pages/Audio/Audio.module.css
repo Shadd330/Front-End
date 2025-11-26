@@ -3,24 +3,21 @@
   padding: 0;
   background-attachment: fixed;
 }
-
-
 /*BTN */
-
-
 
 .btn{
 
-  padding: 15px 40px;
+  padding: 200px 200px;
+  margin-left: 30.33%;
   border: none;
   outline: none;
-  color: #fff;
+  color: #1ea9b3;
   margin-top: 10em;
   cursor: pointer;
   position: relative;
   z-index: 0;
-  border-radius: 12px;
-
+  border-radius: 50%;
+  transition: 0.5s;
 }
 
 .btn::after{
@@ -29,22 +26,28 @@
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: #333;
+  background-color: #3a2261;
   left: 0;
   top: 0;
-  border-radius: 20px;
-
+  border-radius: 50%;
+  transition: 0.5s;
+  
 }
 
 /* glow */
 
-
-.btn::before{
+.btn::before {
   content: "";
-  background: linear-gradient(
+  background: linear-gradient( 
     45deg,
-    red, orange, yellow, lime
-    cyan, blue, purple, pink,
+  
+  #1BE7FF, 
+  #8367C7, 
+  #EA526F,
+  #CD4631,
+  #F9C22E, 
+  #8CD867,
+  #1BE7FF
     );
     position: absolute;
     top: -2px;
@@ -52,11 +55,11 @@
     background-size: 600%;
     z-index: -1;
     width: calc(100% + 10px);
-    height:  calc(100% + 10px);
+    height: calc(100% + 10px);
     filter: blur(8px);
-    animation: glowing 20s linear infinite; 
+    animation: glowing 40s linear infinite; 
     transition: opacity .3s ease-in-out;
-    border-radius: 10px;
+    border-radius: 50%;
     opacity: 1;
   }
 
@@ -67,7 +70,22 @@
   }
 
 
-/* glow */
+
+/* hover */
+
+.btn:hover::before{
+  opacity: 1;
+}
+.btn:hover::after{
+  background: transparent;
+
+}
+.btn:hover:active{
+ color: black;
+ font-weight: bold;
+}
+
+/* hover */
 
 /*BTN*/
 

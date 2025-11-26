@@ -37,7 +37,7 @@ export function Function() {
           <ul className={style.menu}>
 
             {
-              exemploValores.map((value, i) => {
+              exemploValores.map((value) => {
                 return (
 
                   <li className={style.li}>
