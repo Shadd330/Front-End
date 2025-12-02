@@ -27,8 +27,6 @@ export function Function() {
 
   return (
     <>
-
-
        <div className={style.scrollbar}>
             
         </div> 

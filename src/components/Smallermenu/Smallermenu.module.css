@@ -14,15 +14,14 @@
 .screen{
 
     float: right;
-    overflow: hidden;
     border-bottom: #432c64 solid 10px;
     border-right: #432c64 solid 10px;
     margin-right: 1cm;
     margin-left: 1cm;
     margin-bottom: 1cm;
     border-radius: 30px;
-    height: 850px;
-    width: 1650px;
+    height: 750px;
+    width: 1250px;
     background-color: #100f24;
 
 }
