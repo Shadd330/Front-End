@@ -1,29 +1,25 @@
 import style from "./function.module.css"
 
-export function Function() {
+let exemploValores=[]
 
-  const exemploValores = [
-    {
-      'name': 'Get Time',
-      'intention': 'getTime'
-    },
-    {
-      'name' : 'Open Google',
-      'intention' : 'openGoogle'
-    },
-    {
-      'name' : 'Call',
-      'intention' : 'openGoogle'
-    },
-    {
-      'name' : 'Logs',
-      'intention' : 'openGoogle'
-    },
-    {
-      'name' : 'Steps',
-      'intention' : 'openGoogle'
-    },
-  ]
+async function loadIntents(){
+
+
+fetch(`http://10.68.20.120:3000/api/intents`)
+  .then(response => {
+  if (!response.ok) {
+    throw new Error(`HTTP error! status: ${response.status}`);
+  }
+  exemploValores = response.json(); // or .text() for plain text
+})
+.catch(err => {
+  console.log(err)
+})
+
+}
+
+export function Function() {
+  loadIntents()
 
   return (
     <>
