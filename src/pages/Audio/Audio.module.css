@@ -3,10 +3,10 @@
   padding: 0;
   background-attachment: fixed;
 }
+
 /*BTN */
 
 .btn{
-
   padding: 100px 100px;
   margin-left: 31.33%;
   border: none;
@@ -31,7 +31,6 @@
   top: 0;
   border-radius: 50%;
   transition: 0.5s;
-  
 }
 
 /* glow */
@@ -40,7 +39,6 @@
   content: "";
   background: linear-gradient( 
     45deg,
-  
   #1BE7FF, 
   #8367C7, 
   #EA526F,
@@ -48,45 +46,38 @@
   #F9C22E, 
   #8CD867,
   #1BE7FF
-    );
-    position: absolute;
-    top: -2px;
-    left: -2px;
-    background-size: 600%;
-    z-index: -1;
-    width: calc(100% + 10px);
-    height: calc(100% + 10px);
-    filter: blur(8px);
-    animation: glowing 40s linear infinite; 
-    transition: opacity .3s ease-in-out;
-    border-radius: 50%;
-    opacity: 1;
-  }
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 600%;
+  z-index: -1;
+  width: calc(100% + 10px);
+  height: calc(100% + 10px);
+  filter: blur(8px);
+  animation: glowing 40s linear infinite; 
+  transition: opacity .3s ease-in-out;
+  border-radius: 50%;
+  opacity: 1;
+}
 
-  @keyframes glowing{
-    0% {background-position: 0 0;}
-    50% {background-position: 400% 0;}
-    100% {background-position: 0 0;}
-  }
-
-
+@keyframes glowing{
+  0% {background-position: 0 0;}
+  50% {background-position: 400% 0;}
+  100% {background-position: 0 0;}
+}
 
 /* hover */
 
 .btn:hover::before{
   opacity: 1;
 }
+
 .btn:hover::after{
   background: transparent;
-
 }
+
 .btn:hover:active{
  color: black;
  font-weight: bold;
 }
-
-/* hover */
-
-/*BTN*/
-
-

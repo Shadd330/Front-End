@@ -25,6 +25,7 @@ export function Header({ active }) {
                 return (
                   <li className={style.red}>
                     <a
+                      href="/"
                       className={style.active}
                     >
                       404

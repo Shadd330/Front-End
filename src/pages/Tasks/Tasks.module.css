@@ -1,0 +1,187 @@
+/* whole scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #15111d;
+  border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(to bottom,
+      rgb(176, 11, 105),
+      rgb(66, 10, 85),
+      rgb(4, 32, 105));
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-image: linear-gradient(to bottom,
+      rgb(255, 27, 141),
+      rgb(241, 196, 32),
+      rgb(105, 209, 204));
+}
+
+.menu {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.menu .li {
+  list-style: none;
+  margin-top: 2rem;
+}
+
+.intentSelectButton {
+  border: none;
+  border-radius: 30px;
+  background-color: rgb(40,20,60);
+  text-decoration: none;
+  color: aliceblue;
+  display: block;
+  align-items: center;
+  width: 100%;
+  padding: 20px 30px 20px 30px;
+  font-size: larger;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.intentSelectButton:hover {
+  background-color: rgb(60,30,90);
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+  max-width: 80%;
+  margin: 20px auto;
+  padding: 10px;
+  box-sizing: border-box;
+  min-height: 85vh
+}
+
+.intentList {
+  flex: 0 0 30%;
+}
+
+.intentInfo {
+  flex: 0 0 60%;
+}
+
+.intentList,
+.intentInfo {
+  background-color: #15111d;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 16px;
+}
+
+/* Responsive: stack on small screens */
+@media (max-width: 900px) {
+  section {
+    flex-direction: column;
+  }
+  .intentList, .intentInfo {
+    flex: 1 0 auto;
+    width: 100%;
+    margin: 0 0 10px 0;
+    height: 60vh;
+  }
+  .intentInfo {
+    margin-bottom: 0;
+  }
+}
+
+.noIntentSelectedBox {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.noIntentSelectedText {
+  color: white;
+  text-align: center;
+}
+
+.intentInfoBox {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items:normal
+}
+
+.intentInfoTitle {
+  width: 100%;
+  height: 10%;
+  color: white;
+  text-align: center;
+}
+
+.intentInfoArgs {
+  width: 100%;
+  height: 70%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  align-self: center;
+  margin: auto;
+}
+
+.intentInfoArgs h2 {
+  width: 90%;
+}
+
+.intentInfoArgsBody {
+  justify-self: start;
+  color: aliceblue;
+  font-size: 1.2rem;
+  width: 90%;
+  height: 90%;
+  resize: none;
+  background-color: rgb(20,10,30);
+  border: black solid 4px;
+  box-shadow: none;
+  transition: border 0.2s;
+}
+
+.intentInfoArgsBody:focus {
+  border: black solid 4px;
+  outline: none;
+}
+
+.intentInfoRun {
+  width: 100%;
+  height: 10%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.runIntentButton {
+  border: none;
+  border-radius: 30px;
+  background-color: rgb(40,20,60);
+  text-decoration: none;
+  color: aliceblue;
+  display: block;
+  align-items: center;
+  width: 100%;
+  padding: 20px 30px 20px 30px;
+  font-size: larger;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.runIntentButton:hover {
+  background-color: rgb(60,30,90);
+}
